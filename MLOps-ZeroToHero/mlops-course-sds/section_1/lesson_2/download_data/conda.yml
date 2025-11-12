@@ -1,0 +1,7 @@
+name: download_data
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - requests
+  - pandas

@@ -1,0 +1,7 @@
+name: data_preparation
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "python data_preparation.py"

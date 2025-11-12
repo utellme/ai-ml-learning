@@ -1,0 +1,7 @@
+name: component
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "python component.py"

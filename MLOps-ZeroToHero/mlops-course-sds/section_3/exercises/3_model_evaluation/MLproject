@@ -1,0 +1,7 @@
+name: ModelEvaluationComponent
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "/opt/anaconda3/envs/mlflow-306148b2d4cd60f5cb92723e5023bc4b0e6e8c87/bin/python model_evaluation.py"

@@ -1,0 +1,7 @@
+name: my_component_env
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - mlflow
+  - scikit-learn

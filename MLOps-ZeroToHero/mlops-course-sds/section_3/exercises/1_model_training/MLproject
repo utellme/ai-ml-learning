@@ -1,0 +1,7 @@
+name: ModelTrainingComponent
+
+conda_env: conda.yml
+
+entry_points:
+  main:
+    command: "/opt/anaconda3/envs/mlflow-da58dc05bd92ceed6e1d02bcce2be4f557ebae9a/bin/python model_training.py"

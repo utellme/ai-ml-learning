@@ -1,0 +1,8 @@
+# To implement the conda.yml file, we need to install the dependencies for the my_component.py script.
+name: my_component
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - mlflow
+  - scikit-learn
